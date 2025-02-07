@@ -38,7 +38,7 @@ docker-compose up --build
 3. Access endpoints:
 
 - API: [http://localhost:8080](http://localhost:8080)
-- Frontend: [http://localhost:8080/web](http://localhost:8080)
+- Frontend: [http://localhost:8080/web](http://localhost:8080/web)
 ## API Documentation
 Example Requests  
 Create Scheduled Trigger:
