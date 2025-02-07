@@ -35,7 +35,7 @@ COPY --from=builder /app/web ./web
 COPY --from=builder /app/docs ./docs
 
 # Environment variables
-ENV DATABASE_URL="host=db user=postgres password=postgres dbname=triggers port=5432 sslmode=disable"
+ENV DATABASE_URL="host=db user=postgres password=postgres dbname=postgres port=5432 sslmode=disable"
 ENV PORT=8080
 
 EXPOSE 8080

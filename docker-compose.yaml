@@ -19,7 +19,7 @@ services:
     depends_on:
       - db
     environment:
-      DATABASE_URL: "host=db user=postgres password=postgres dbname=triggers port=5432 sslmode=disable"
+      DATABASE_URL: "host=db user=postgres password=postgres dbname=postgres port=5432 sslmode=disable"
 
 volumes:
   postgres_data:
